@@ -26,6 +26,7 @@ namespace Platformer.Game
 		private bool _isShoot;
 		private float _timeAttack;
 		private bool _isMoving;
+		private bool _isDie;
 
 		public override void TakeDamage(float damage)
 		{
@@ -41,6 +42,7 @@ namespace Platformer.Game
 		{
 			_gameStateService.SwitchState<DiedState>();
 			_audioService.PlayOneShotById(AudioOneShotType.Died);
+			_isDie = true;
 		}
 
 		public override void Move(float deltaTime)
