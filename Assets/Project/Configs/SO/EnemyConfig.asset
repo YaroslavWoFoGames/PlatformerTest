@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ca6e3106eb451c95b272e9519eefc7, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  <PerSpawnTimeMin>k__BackingField: 1
+  <PerSpawnTimeMax>k__BackingField: 10
+  Prefab: {fileID: 9124038070266435508, guid: 0dd9e3cbd57bbe04f91610e133ead141, type: 3}
+  <MinLootAmount>k__BackingField: 10
+  <MaxLootAmount>k__BackingField: 20
+  _enemyConfigRepository:
+  - <Id>k__BackingField: enemy_blood
+    <Prefab>k__BackingField: {fileID: 4634002156617507714, guid: 123946ce3ccadce4c8d7d7be4ebf7426, type: 3}
+    <Data>k__BackingField:
+      <Damage>k__BackingField: 5
+      <Speed>k__BackingField: 4
+      <Health>k__BackingField: 100
+  - <Id>k__BackingField: enemy_easy
+    <Prefab>k__BackingField: {fileID: 3796370434832401598, guid: 79b3d2b782e3da248b91810967dd5139, type: 3}
+    <Data>k__BackingField:
+      <Damage>k__BackingField: 5
+      <Speed>k__BackingField: 3
+      <Health>k__BackingField: 150
+  - <Id>k__BackingField: enemy_run
+    <Prefab>k__BackingField: {fileID: 8165650386508592409, guid: 895dc34882de91c46920d0337b5e3c8d, type: 3}
+    <Data>k__BackingField:
+      <Damage>k__BackingField: 5
+      <Speed>k__BackingField: 6
+      <Health>k__BackingField: 10
+  - <Id>k__BackingField: enemy_tank
+    <Prefab>k__BackingField: {fileID: 3926772560614003660, guid: 0372d6a7da8cbed4793cc8010441eb0c, type: 3}
+    <Data>k__BackingField:
+      <Damage>k__BackingField: 10
+      <Speed>k__BackingField: 1
+      <Health>k__BackingField: 400
+  - <Id>k__BackingField: enemy_without_brain
+    <Prefab>k__BackingField: {fileID: 2956765442337722558, guid: 5edbdf660d5dd3346a507519b0f6c530, type: 3}
+    <Data>k__BackingField:
+      <Damage>k__BackingField: 10
+      <Speed>k__BackingField: 2
+      <Health>k__BackingField: 100

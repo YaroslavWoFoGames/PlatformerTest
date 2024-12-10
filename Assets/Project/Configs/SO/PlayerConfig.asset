@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf7535786ca41fc979f0bcdf289c24e, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  <Speed>k__BackingField: 6
+  <AttackSpeed>k__BackingField: 0.2
+  <Damage>k__BackingField: 25
+  <StartAmmoAmount>k__BackingField: 99
+  <BoundMovementLeft>k__BackingField: -17
+  <BoundMovementRight>k__BackingField: 68
+  <Prefab>k__BackingField: {fileID: 8499264862524421881, guid: 9586e53ca5746764485b578cd2201e9e, type: 3}

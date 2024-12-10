@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ba9ecf39da420aad953b801b757aed, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  <EnemyConfig>k__BackingField: {fileID: 11400000, guid: 2e3a45c660993654fae493079e7a6f07, type: 2}
+  <PlayerConfig>k__BackingField: {fileID: 11400000, guid: 8b6c63c9ca0b1e14896bee5500414f8d, type: 2}
+  <AudioConfig>k__BackingField: {fileID: 11400000, guid: 4e0227b69a389874984539b7e827c0ee, type: 2}
+  <UIConfig>k__BackingField: {fileID: 11400000, guid: e63bdecce9c290343af2042d3805d2d6, type: 2}
+  <SceneConfig>k__BackingField: {fileID: 11400000, guid: 40ec778bb358857499709fc9a67c7eab, type: 2}

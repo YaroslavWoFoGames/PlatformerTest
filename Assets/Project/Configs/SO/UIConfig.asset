@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797b0b15b97a43b292aaf44b400d2785, type: 3}
+  m_Name: UIConfig
+  m_EditorClassIdentifier: 
+  _panels:
+  - <Id>k__BackingField: DiedPanel
+    <Prefab>k__BackingField: {fileID: 755046616484411320, guid: 4a5adc6988a70bb498d356796f90d89c, type: 3}
+  _views:
+  - <Id>k__BackingField: CharacterStatsView
+    <Prefab>k__BackingField: {fileID: 6457222688233880304, guid: fe080767e6611f54dab4adfee6d24d27, type: 3}
+  _popups: []
